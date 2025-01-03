@@ -7,74 +7,71 @@
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 4fr;
     grid-template-rows: min-content min-content auto min-content;
+    grid-template-columns: 1fr 4fr;
     grid-template-areas:
-        "aside header"
-        "aside nav"
+        "header header"
+        "nav nav"
         "aside main"
-        "aside footer";
+        "footer footer";
+    background-color: #282828;
 }
-
 header {
-    text-align: center;
-    color: black;
-    background-color: lightgray;
+    padding-top: 3px;
     grid-area: header;
+    background-color: #282828;
 }
 nav {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    color: black;
     grid-area: nav;
+    background-color: #181818;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    margin: 5px 5px;
 }
 aside {
-    color: black;
     grid-area: aside;
+    background-color: #181818;
+    border-radius: 10px;
+    margin: 0px 5px;
 }
 main {
-    background-color: lightgray;
-    color: black;
     grid-area: main;
+    background-color: #121212;
+    border-radius: 10px;
+    margin-right: 5px;
 }
 footer {
-    text-align: center;
-    color: black;
-    background-color: lightgray;
+    padding: 3px;
     grid-area: footer;
+    background-color: #282828;
 }
 
-.nav-bar ul {
-    background-color: rgb(104, 104, 104);
+header,
+nav,
+aside,
+main,
+footer {
+    text-align: center;
+    color: #eeeeee;
+}
+
+.navigation-bar ul {
     list-style-type: none;
     overflow: hidden;
 }
-.nav-bar li {
+.navigation-bar li {
     float: left;
 }
-.nav-bar a {
-    width: 100px;
+.navigation-bar button {
+    width: min-content;
     padding: 15px;
     font-size: 20px;
-    color: black;
-    text-decoration: none;
-    display: block;
-    text-align: center;
+    background-color: transparent;
+    color: #eeeeee;
+    border: none;
+    cursor: pointer;
 }
-.nav-bar a:hover {
-    color: white;
-    background-color: gray;
-    border-radius: 8px;
-}
-
-.aside-menu,
-.aside-menu a {
-    color: wheat;
-    background-color: rgb(65, 65, 65);
-}
-
-.aside-menu-section {
-    font-size: 20px;
-    margin: 25px 0;
-    list-style-type: none;
+.navigation-bar button:hover {
+    background-color: #282828;
+    color: rgb(236, 236, 173);
 }
