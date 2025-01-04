@@ -48,7 +48,6 @@ footer {
 
 header,
 nav,
-aside,
 main,
 footer {
     text-align: center;
@@ -74,4 +73,18 @@ footer {
 .navigation-bar button:hover {
     background-color: #282828;
     color: rgb(236, 236, 173);
+}
+
+.side-bar-section ul {
+    list-style-type: none;
+}
+.side-bar {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    color: #eeeeee;
+}
+
+.side-bar-section {
+    margin: 15px;
 }
