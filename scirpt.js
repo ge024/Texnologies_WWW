@@ -1,8 +1,5 @@
-function showHidden() {
-    var element = document.getElementsByClassName("section");
-    if (element.style.display === "none") {
-        element.style.display = "block";
-    } else {
-        element.style.display = "none";
-    }
+function showSidebarSection(index) {
+    const sections = document.querySelectorAll(".side-bar-section");
+    sections.forEach((section) => (section.style.display = "none"));
+    sections[index].style.display = "block";
 }

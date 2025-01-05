@@ -12,26 +12,26 @@
             <header><h1>Salvador Dali</h1></header>
             <nav class="navigation-bar">
                 <ul>
-                    <li><button onclick="showHidden()">Biography</button></li>
-                    <li><button>Paintings</button></li>
-                    <li><button>Galleries</button></li>
-                    <li><button>Links</button></li>
-                    <li><button>Admin</button></li>
+                    <li><a href="#" onclick="showSidebarSection(0)">Biography</a></li>
+                    <li><a href="#" onclick="showSidebarSection(1)">Paintings</a></li>
+                    <li><a href="#" onclick="showSidebarSection(2)">Galleries</a></li>
+                    <li><a href="#" onclick="showSidebarSection(3)">Links</a></li>
+                    <li><a href="#" onclick="showSidebarSection(4)">Admin</a></li>
                 </ul>
             </nav>
             <aside class="side-bar">
                 <div class="side-bar-section">
-                    Biography
+                    <div class="section-title">Biography</div>
                     <ul>
-                        <li>mini bio</li>
-                        <li>early life</li>
-                        <li>surrealism</li>
-                        <li>later carrer</li>
-                        <li>Other work</li>
+                        <li><a href="#">mini bio</a></li>
+                        <li><a href="#">early life</a></li>
+                        <li><a href="">surrealism</a></li>
+                        <li><a href="">later carrer</a></li>
+                        <li><a href="">Other work</a></li>
                     </ul>
                 </div>
                 <div class="side-bar-section">
-                    Paintings
+                    <div class="section-title">Paintings</div>
                     <ul>
                         <li>test</li>
                         <li>test</li>
@@ -41,15 +41,15 @@
                     </ul>
                 </div>
                 <div class="side-bar-section">
-                    Galleries
+                    <div class="section-title">Galleries</div>
                     <ul>
-                        <li>The Dalí Museum (St. Petersburg, Florida)</li>
-                        <li>Dalí Theatre-Museum (Figueres, Spain)</li>
-                        <li>Dalí Museum Paris (Paris, France)</li>
+                        <li>The Dalí Museum <br />(St. Petersburg, Florida)</li>
+                        <li>Dalí Theatre-Museum <br />(Figueres, Spain)</li>
+                        <li>Dalí Museum Paris <br />(Paris, France)</li>
                     </ul>
                 </div>
                 <div class="side-bar-section">
-                    Links
+                    <div class="section-title">Links</div>
                     <ul>
                         <li>test</li>
                         <li>teste</li>
@@ -59,13 +59,14 @@
                     </ul>
                 </div>
                 <div class="side-bar-section">
-                    Admin
+                    <div class="section-title">Admin</div>
                     <ul>
-                        <li>test</li>
-                        <li>teste</li>
-                        <li>test</li>
-                        <li>test</li>
-                        <li>test</li>
+                        <li>Sign in</li>
+                        <li>Sign out</li>
+                        <div class="admin-options">
+                            <li>Manage Exhibitions</li>
+                            <li>Manage Links</li>
+                        </div>
                     </ul>
                 </div>
             </aside>
