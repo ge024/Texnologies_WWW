@@ -103,3 +103,9 @@ footer {
     background-color: #282828;
     color: rgb(236, 236, 173);
 }
+
+.biography-main p {
+    display: none;
+    margin: 20px;
+    font-size: 20px;
+}
