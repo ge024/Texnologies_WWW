@@ -5,7 +5,7 @@
     color: #eeeeee;
 }
 
-.grid-container {
+.gridContainer {
     width: 100vw;
     height: 100vh;
     display: grid;
@@ -56,41 +56,41 @@ footer {
 }
 
 /* Navigation Bar */
-.navigation-bar ul {
+.navigationBar ul {
     height: 60px;
     list-style-type: none;
     display: flex;
     align-items: center;
     float: left;
 }
-.navigation-bar a {
+.navigationBar a {
     text-decoration: none;
     width: min-content;
     padding: 20px;
     font-size: 20px;
     cursor: pointer;
 }
-.navigation-bar a:hover {
+.navigationBar a:hover {
     background-color: #282828;
     color: rgb(236, 236, 173);
 }
 
 /* Side Bar */
-.side-bar-section {
+.sideBarSection {
     display: none;
     margin: 20px;
 }
-.section-title {
+.sectionTitle {
     text-align: center;
     font-size: 30px;
     border: 5px solid #282828;
     border-radius: 10px;
     padding: 10px;
 }
-.side-bar-section ul {
+.sideBarSection ul {
     list-style-type: none;
 }
-.side-bar-section a {
+.sideBarSection a {
     text-decoration: none;
     padding: 20px;
     font-size: 20px;
@@ -99,13 +99,20 @@ footer {
     margin-top: 10px;
     border-radius: 10px;
 }
-.side-bar-section a:hover {
+.sideBarSection a:hover {
     background-color: #282828;
     color: rgb(236, 236, 173);
 }
 
-.biography-main p {
+/* Main Section */
+.mainSection {
+    display: none;
+}
+#biographySection p {
     display: none;
     margin: 20px;
     font-size: 20px;
+}
+#paintingsSection {
+    display: flex;
 }
