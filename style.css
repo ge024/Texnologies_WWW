@@ -43,7 +43,7 @@ main {
     margin-right: 5px;
 }
 footer {
-    padding: 3px;
+    padding: 5px;
     grid-area: footer;
     background-color: #282828;
 }
