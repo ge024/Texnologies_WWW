@@ -23,6 +23,14 @@ function showBioSection(paragraphID) {
         targetParagraph.style.display = "block";
     }
 }
+function showPaintingSection(containerID) {
+    const containers = document.querySelectorAll(".hiddenContainer");
+    containers.forEach((container) => container.classList.remove("paintingsContainer"));
+    const targetContainer = document.getElementById(containerID);
+    if (targetContainer) {
+        targetContainer.classList.add("paintingsContainer");
+    }
+}
 
 fetch("data.json")
     .then((response) => response.json())
@@ -35,3 +43,5 @@ fetch("data.json")
         });
     })
     .catch((error) => console.error("Error loading content", error));
+
+document.getElementById();

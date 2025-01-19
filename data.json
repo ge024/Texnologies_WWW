@@ -10,7 +10,7 @@
         },
         {
             "id": "surrealism",
-            "content": "As an art student in Madrid, Dalí assimilated a vast number of artistic styles and displayed unusual technical facility as a painter. It was not until the late 1920s, however, that two events brought about the development of his mature artistic style: his discovery of Sigmund Freud's writings on the erotic significance of subconscious imagery and his affiliation with the Paris Surrealists, a group of artists and writers who sought to establish the “greater reality” of the human subconscious over reason. To bring up images from his subconscious mind, Dalí began to induce hallucinatory states in himself by a process he described as “paranoiac critical.” <br /> Once Dalí hit on that method, his painting style matured with extraordinary rapidity, and from 1929 to 1937 he produced the paintings which made him the best-known Surrealist artist. He depicted a dreamworld in which commonplace objects are juxtaposed, deformed, or otherwise metamorphosed in a bizarre and irrational fashion. Dalí portrayed those objects in meticulous, almost painfully realistic detail and usually placed them within bleak sunlit landscapes that were reminiscent of his Catalonian homeland. Perhaps the most famous of those enigmatic images is The Persistence of Memory (1931), in which limp melting watches rest in an eerily calm landscape. With the Spanish director Luis Buñuel, Dalí made two Surrealistic films—Un Chien andalou (1929; An Andalusian Dog) and L'Âge d'or (1930; The Golden Age)—that are similarly filled with grotesque but highly suggestive images. During the presentation of the first film, Dalí met French poet Paul Éluard, one of the founders of Surrealism, and his wife, Gala. She married Dalí in 1934 and became his manager, model, and muse."
+            "content": "As an art student in Madrid, Dalí assimilated a vast number of artistic styles and displayed unusual technical facility as a painter. It was not until the late 1920s, however, that two events brought about the development of his mature artistic style: his discovery of Sigmund Freud's writings on the erotic significance of subconscious imagery and his affiliation with the Paris Surrealists, a group of artists and writers who sought to establish the “greater reality” of the human subconscious over reason. To bring up images from his subconscious mind, Dalí began to induce hallucinatory states in himself by a process he described as “paranoiac critical.” Once Dalí hit on that method, his painting style matured with extraordinary rapidity, and from 1929 to 1937 he produced the paintings which made him the best-known Surrealist artist. He depicted a dreamworld in which commonplace objects are juxtaposed, deformed, or otherwise metamorphosed in a bizarre and irrational fashion. Dalí portrayed those objects in meticulous, almost painfully realistic detail and usually placed them within bleak sunlit landscapes that were reminiscent of his Catalonian homeland. Perhaps the most famous of those enigmatic images is The Persistence of Memory (1931), in which limp melting watches rest in an eerily calm landscape. With the Spanish director Luis Buñuel, Dalí made two Surrealistic films—Un Chien andalou (1929; An Andalusian Dog) and L'Âge d'or (1930; The Golden Age)—that are similarly filled with grotesque but highly suggestive images. During the presentation of the first film, Dalí met French poet Paul Éluard, one of the founders of Surrealism, and his wife, Gala. She married Dalí in 1934 and became his manager, model, and muse."
         },
         {
             "id": "laterCarrer",
@@ -19,6 +19,38 @@
         {
             "id": "otherWork",
             "content": "The most interesting and revealing of Dalí's books is The Secret Life of Salvador Dalí (1942). In addition to his art and writing, Dalí also created a monument to himself, the Dalí Theatre-Museum, in his hometown of Figueras, which opened in 1974 and features art from his collection. The museum was designed by the artist and constructed on the remains of the local theater building, which was destroyed in a fire during the Spanish Civil War. It was also where Dalí had shown some of his earliest art pieces. Dalí was buried under the stage after his death in 1989. Another museum dedicated to the Surrealist was founded by collectors by A. Reynolds and Eleanor Morse in 1982 and is located in St. Petersburg, Florida."
+        }
+    ],
+    "galleries": {
+        "spainGal": [
+            {
+                "title": "Dalí Theatre-Museum (Figueres, Spain)",
+                "url": "https://www.salvador-dali.org/en/museums/dali-theatre-museum-in-figueres/"
+            },
+            {
+                "title": "Dalí House Museum (Portlligat, Cadaqués, Spain)",
+                "url": "https://www.salvador-dali.org/en/museums/house-salvador-dali-in-portlligat/"
+            }
+        ],
+        "otherGal": [
+            {
+                "title": "Dalí Museum Paris (Paris, France)",
+                "url": "https://www.daliparis.com/en/"
+            },
+            {
+                "title": "The Dalí Museum (St. Petersburg, Florida)",
+                "url": "https://thedali.org/"
+            }
+        ]
+    },
+    "links": [
+        {
+            "title": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD"
+        },
+        {
+            "title": "Dali museum (about) ",
+            "url": "https://thedali.org/about-the-museum/timeline/"
         }
     ]
 }

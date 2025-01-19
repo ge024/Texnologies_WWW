@@ -33,35 +33,23 @@
                 <div class="sideBarSection">
                     <div class="sectionTitle">Paintings</div>
                     <ul>
-                        <li><a href="#">Surrealism</a></li>
-                        <li><a href="#">Cubism</a></li>
-                        <li><a href="#">Classical Revival</a></li>
-                        <li><a href="#">Metaphysical Art</a></li>
-                        <li><a href="#">Nuclear Mysticism</a></li>
+                        <li><a href="#" onclick="showPaintingSection('surrPaintings')">Surrealism</a></li>
+                        <li><a href="#" onclick="showPaintingSection('cubPaintings')">Cubism</a></li>
+                        <li><a href="#" onclick="showPaintingSection('classPaintings')">Classical Revival</a></li>
                     </ul>
                 </div>
                 <div class="sideBarSection">
                     <div class="sectionTitle">Galleries</div>
                     <ul>
-                        <li>
-                            <a href="#">The Dalí Museum <br />(St. Petersburg, Florida)</a>
-                        </li>
-                        <li>
-                            <a href="#">Dalí Theatre-Museum <br />(Figueres, Spain)</a>
-                        </li>
-                        <li>
-                            <a href="#">Dalí Museum Paris <br />(Paris, France)</a>
-                        </li>
+                        <li><a href="#">Spain</a></li>
+                        <li><a href="#">Other Countries</a></li>
                     </ul>
                 </div>
                 <div class="sideBarSection">
                     <div class="sectionTitle">Links</div>
                     <ul>
-                        <li>test</li>
-                        <li>teste</li>
-                        <li>test</li>
-                        <li>test</li>
-                        <li>test</li>
+                        <li><a href="#">Wikipedia</a></li>
+                        <li><a href="#">Dali Museum (about)</a></li>
                     </ul>
                 </div>
                 <div class="sideBarSection">
@@ -85,11 +73,70 @@
                     <p id="otherWork"></p>
                 </div>
                 <div class="mainSection" id="paintingsSection">
-                    <div>Paintings</div>
+                    <div class="hiddenContainer" id="surrPaintings">
+                        <div class="painting">
+                            <img src="PICTURES/The-Persistence-of-Memory.jpg" alt="" />
+                            <h1 class="paintingTitle">The Persistence of Memory</h1>
+                        </div>
+                        <div class="painting">
+                            <img src="PICTURES/The-elephants.jpg" alt="" />
+                            <h1 class="paintingTitle">The Elephants</h1>
+                        </div>
+                        <div class="painting">
+                            <img src="PICTURES/Swans-Reflecting-Elephants.jpg" alt="" />
+                            <h1 class="paintingTitle">Swans Reflecting Elephants</h1>
+                        </div>
+                    </div>
+
+                    <div class="hiddenContainer" id="cubPaintings">
+                        <div class="painting">
+                            <img src="PICTURES/Cubism-self-portrait.jpg" alt="" />
+                            <h1 class="paintingTitle">Cubist Self-Portrait</h1>
+                        </div>
+                        <div class="painting">
+                            <img src="PICTURES/Geopoliticus-child-watch.jpg" alt="" />
+                            <h1 class="paintingTitle">Geopoliticus Child Watching the Birth of the New Man</h1>
+                        </div>
+                        <div class="painting">
+                            <img src="PICTURES/The-sacrament-of-the-last-supper.jpg" alt="" />
+                            <h1 class="paintingTitle">The Sacrament of the Last Supper</h1>
+                        </div>
+                    </div>
+
+                    <div class="hiddenContainer" id="classPaintings">
+                        <div class="painting">
+                            <img src="PICTURES/The_Madonna_of_Port_Lligat.jpg" alt="" />
+                            <h1 class="paintingTitle">The Madonna of Port Lligat</h1>
+                        </div>
+                        <div class="painting">
+                            <img src="PICTURES/Three-ages-of-woman.jpg" alt="" />
+                            <h1 class="paintingTitle">The Three Ages of Woman</h1>
+                        </div>
+                        <div class="painting">
+                            <img src="PICTURES/Galaofspheres.jpg" alt="" />
+                            <h1 class="paintingTitle">Galatea of the Spheres</h1>
+                        </div>
+                    </div>
                 </div>
-                <div class="mainSection" id="galleriesSection">galleries</div>
-                <div class="mainSection" id="linksSection">Links</div>
-                <div class="mainSection" id="adminSection">Admin</div>
+                <div class="mainSection" id="galleriesSection">
+                    <!--
+                    <table id="galleriesTable">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Link</th>
+                            </tr>
+                        </thead>
+                        <tbody> -->
+                    <!-- DEDOMENA PINAKA EKTHESEWN -->
+                    <!--
+                        </tbody>
+                    </table>
+                    -->
+                </div>
+
+                <div class="mainSection" id="linksSection"></div>
+                <div class="mainSection" id="adminSection"></div>
             </main>
             <footer><h2>© Salvador Dali. All rights reserved.</h2></footer>
         </div>
