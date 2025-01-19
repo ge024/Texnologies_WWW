@@ -1,0 +1,20 @@
+{
+    "galleries": [
+        {
+            "title": "Dalí Theatre-Museum (Figueres, Spain)",
+            "url": "https://www.salvador-dali.org/en/museums/dali-theatre-museum-in-figueres/"
+        },
+        {
+            "title": "Dalí House Museum (Portlligat, Cadaqués, Spain)",
+            "url": "https://www.salvador-dali.org/en/museums/house-salvador-dali-in-portlligat/"
+        },
+        {
+            "title": "Dalí Museum Paris (Paris, France)",
+            "url": "https://www.daliparis.com/en/"
+        },
+        {
+            "title": "The Dalí Museum (St. Petersburg, Florida)",
+            "url": "https://thedali.org/"
+        }
+    ]
+}
