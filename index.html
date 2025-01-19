@@ -41,25 +41,23 @@
                 <div class="sideBarSection">
                     <div class="sectionTitle">Galleries</div>
                     <ul>
-                        <li><a href="#">Spain</a></li>
-                        <li><a href="#">Other Countries</a></li>
+                        <li><a href="#" onclick="showGalleriesSection('galleriesTable')">Some Galleries</a></li>
                     </ul>
                 </div>
                 <div class="sideBarSection">
                     <div class="sectionTitle">Links</div>
                     <ul>
-                        <li><a href="#">Wikipedia</a></li>
-                        <li><a href="#">Dali Museum (about)</a></li>
+                        <li><a href="#" onclick="showLinksSection('wikiSection')">Wikipedia / Dali museum</a></li>
                     </ul>
                 </div>
                 <div class="sideBarSection">
                     <div class="sectionTitle">Admin</div>
                     <ul>
-                        <li>Sign in</li>
-                        <li>Sign out</li>
+                        <li><a href="#">Sign in</a></li>
+                        <li><a href="#">Sign out</a></li>
                         <div class="adminOptions">
-                            <li>Manage Exhibitions</li>
-                            <li>Manage Links</li>
+                            <li><a href="#">Manage Exhibitions</a></li>
+                            <li><a href="#">Manage Links</a></li>
                         </div>
                     </ul>
                 </div>
@@ -119,23 +117,31 @@
                     </div>
                 </div>
                 <div class="mainSection" id="galleriesSection">
-                    <!--
-                    <table id="galleriesTable">
-                        <thead>
-                            <tr>
-                                <th>Name</th>
-                                <th>Link</th>
-                            </tr>
-                        </thead>
-                        <tbody> -->
-                    <!-- DEDOMENA PINAKA EKTHESEWN -->
-                    <!--
-                        </tbody>
-                    </table>
-                    -->
+                    <div class="hidden" id="galleriesTable">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Title</th>
+                                    <th>Link</th>
+                                </tr>
+                            </thead>
+                            <tbody id="galsTableBody"></tbody>
+                        </table>
+                    </div>
                 </div>
-
-                <div class="mainSection" id="linksSection"></div>
+                <div class="mainSection" id="linksSection">
+                    <div class="hidden" id="wikiSection">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Title</th>
+                                    <th>Link</th>
+                                </tr>
+                            </thead>
+                            <tbody id="linksTableBody"></tbody>
+                        </table>
+                    </div>
+                </div>
                 <div class="mainSection" id="adminSection"></div>
             </main>
             <footer><h2>© Salvador Dali. All rights reserved.</h2></footer>
